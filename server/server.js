@@ -17,7 +17,7 @@ const app = express();
 // Middlewares
 app.use(
   cors({
-    origin: "https://algovault-dsa-tracker-client.onrender.com/",
+    origin: "https://algovault-dsa-tracker-client.onrender.com",
     credentials: true,
   }),
 );
