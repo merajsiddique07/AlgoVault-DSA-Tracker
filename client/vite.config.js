@@ -7,7 +7,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'https://algovault-dsatracker.onrender.com/',
+        target: 'https://algovault-dsatracker.onrender.com',
         changeOrigin: true,
       },
     },
